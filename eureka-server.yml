@@ -1,0 +1,12 @@
+server:
+  port: 8761
+
+eureka:
+  client:
+    #no registrarlo como cliente eureka
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  server:
+    waitTimeInMsWhenSyncEmpty: 0    #sync time
