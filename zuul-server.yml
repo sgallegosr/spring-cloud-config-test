@@ -8,7 +8,7 @@ zuul:
     socket-timeout-millis: 20000
     routes:
       student-service: 
-        path: /students/** 
+        path: /student/** 
         stripPrefix: false  
         sensitiveHeaders:
         url: http://localhost:8098
