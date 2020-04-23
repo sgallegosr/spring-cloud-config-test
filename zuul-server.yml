@@ -3,12 +3,9 @@ server:
   
 zuul:
   ignoredServices: '*'
-  host:
-    connect-timeout-millis: 20000
-    socket-timeout-millis: 20000
-    routes:
-      student-service: 
-        path: /student/** 
-        stripPrefix: false  
-        sensitiveHeaders:
-        url: http://localhost:8098
+  routes:
+    student-service: 
+      path: /student/** 
+      stripPrefix: false  
+      sensitiveHeaders:
+      url: http://localhost:8098
