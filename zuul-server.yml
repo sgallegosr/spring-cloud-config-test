@@ -7,3 +7,4 @@ zuul:
     student-service: 
       path: /student-service/**
       url: http://localhost:8098
+      stripPrefix: true
