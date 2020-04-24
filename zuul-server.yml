@@ -5,6 +5,6 @@ zuul:
   ignoredServices: '*'
   routes:
     student-service: 
-      path: /student-service/**
+      path: /student/**
       url: http://localhost:8098
       stripPrefix: true
