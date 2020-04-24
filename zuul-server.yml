@@ -8,4 +8,4 @@ zuul:
       path: /student/**
       #url: http://localhost:8098
       serviceId: STUDENT-SERVICE
-      stripPrefix: true
+      stripPrefix: false
