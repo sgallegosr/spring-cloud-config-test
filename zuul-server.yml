@@ -6,5 +6,6 @@ zuul:
   routes:
     student-service: 
       path: /student/**
-      url: http://localhost:8098
+      #url: http://localhost:8098
+      serviceId: STUDENT-SERVICE
       stripPrefix: true
