@@ -20,3 +20,4 @@ student-service:
 eureka:
     client:
         fetchRegistry: true
+        registerWithEureka: true
