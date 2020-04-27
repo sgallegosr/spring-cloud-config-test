@@ -10,12 +10,12 @@ zuul:
       serviceId: STUDENT-SERVICE
       stripPrefix: false
 
-#ribbon: 
- # eureka:
-  #  enabled: false
-#student-service:
- # ribbon:
-  #  listOfServers: http://localhost:8091,http://localhost:8092 #lista de servidores posibles
+student-service:
+  ribbon: 
+    eureka:
+      enabled: false
+    listOfServers: http://localhost:8091,http://localhost:8092 #lista de servidores posibles
+    ServerListRefreshInterval: 15000
 
 #eureka:
  #   client:
