@@ -10,14 +10,14 @@ zuul:
       serviceId: STUDENT-SERVICE
       stripPrefix: false
 
-ribbon: 
-  eureka:
-    enabled: false
-student-service:
-  ribbon:
-    listOfServers: http://localhost:8091,http://localhost:8092 #lista de servidores posibles
+#ribbon: 
+ # eureka:
+  #  enabled: false
+#student-service:
+ # ribbon:
+  #  listOfServers: http://localhost:8091,http://localhost:8092 #lista de servidores posibles
 
-eureka:
-    client:
-        fetchRegistry: true
-        registerWithEureka: true
+#eureka:
+ #   client:
+  #      fetchRegistry: true
+   #     registerWithEureka: true
