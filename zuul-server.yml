@@ -13,6 +13,6 @@ zuul:
 ribbon: 
   eureka:
     enabled: false
-echo-service:
+student-service:
   ribbon:
     listOfServers: http://localhost:8091,http://localhost:8092 #lista de servidores posibles
